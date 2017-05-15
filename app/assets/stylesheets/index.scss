@@ -485,10 +485,10 @@ ul.contact li a.icon-rss:before
 /*********************************************************************************/
 
 
-  #header-featured
-  {
-    padding: 18em 0em;
-  }
+#header-featured {
+  padding-top: 7em;
+  padding-bottom: 1.6em;
+}
 
 
 
@@ -993,6 +993,11 @@ a.anchor {
   #header {
   height: 8em;
   }
+
+  #header-featured {
+    padding-top: 10em;
+    padding-bottom: 2em;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -1024,7 +1029,8 @@ a.anchor {
 
   #header-featured
   {
-    padding: 6em 0em;
+    padding-top: 6em;
+    padding-bottom: 1em;
   }
 
   #banner
