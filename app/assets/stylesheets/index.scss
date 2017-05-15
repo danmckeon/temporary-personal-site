@@ -14,7 +14,7 @@ body
   padding: 0px;
   background: #2b2b2b;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 11pt;
+  font-size: 1.2em;
   font-weight: 300;
   color: #6c6c6c
 }
@@ -378,7 +378,7 @@ ul.contact li a.icon-rss:before
 #header
 {
   position: relative;
-  height: 100px;
+  height: 5.3em;
 }
 
 /*********************************************************************************/
@@ -387,8 +387,9 @@ ul.contact li a.icon-rss:before
 
 #logo
 {
+  padding-left: 1em;
   position: absolute;
-  top: 2em;
+  top: 1em;
   width: 100%;
 }
 
@@ -438,8 +439,9 @@ ul.contact li a.icon-rss:before
 {
   position: relative;
   float: right;
+  padding-right: 1%;
   right: 0;
-  top: 1.6em;
+  top: 1em;
 }
 
 #menu ul
@@ -485,7 +487,7 @@ ul.contact li a.icon-rss:before
 
   #header-featured
   {
-    padding: 10em 0em;
+    padding: 18em 0em;
   }
 
 
@@ -500,7 +502,7 @@ ul.contact li a.icon-rss:before
   width: 80%;
   text-align: center;
   color: rgba(255,255,255,.7);
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 #banner a
@@ -565,7 +567,13 @@ ul.contact li a.icon-rss:before
   #content
   {
     float: left;
-    width: 60%;
+    width: 56%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #content p {
+    font-size: 1.2em;
   }
 
 /*********************************************************************************/
@@ -575,7 +583,13 @@ ul.contact li a.icon-rss:before
   #sidebar
   {
     float: right;
-    width: 40%;
+    width: 36%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  #sidebar h3 {
+    font-size: 1.5em;
   }
 
   #stwo-col
@@ -670,7 +684,7 @@ ul.contact li a.icon-rss:before
   margin-bottom: 1em;
   width: 3em;
   height: 3em;
-  line-height: 3em;
+  line-height: 1em;
   font-size: 4em;
   color: #FFF;
   background: #F2762E;
@@ -932,7 +946,7 @@ ul.contact li a.icon-rss:before
 .extra2 .ebox1,
 .extra2 .ebox2
 {
-  width: 47%;
+  width: 46%;
 }
 
 .extra2  .ebox1
@@ -940,13 +954,15 @@ ul.contact li a.icon-rss:before
   display: inline-block;
   float: left;
   padding-right: 2%;
+  padding-left: 2%;
   border-right: 1px solid rgba(0,0,0,.1);
 }
 
 .extra2 .ebox2
 {
   display: inline-block;
-  padding-left: 2%;
+  padding-left: 1.3%;
+  padding-right: 2%;
 }
 
 .project-img-container {
@@ -959,6 +975,117 @@ a.anchor {
   top: -6em;
   visibility: hidden;
 }
+
+@media screen and (max-width: 900px) and (min-width: 580px) {
+  #logo {
+    padding: 0;
+    top: 1;
+    display: block;
+    position: relative;
+    text-align: center;
+  }
+  #menu {
+    display: block;
+    position: relative;
+    text-align: center;
+    float: none;
+  }
+  #header {
+  height: 8em;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  #logo {
+    display: block;
+    position: relative;
+    top: 0;
+    padding: 0;
+    margin: auto;
+    border: none;
+  }
+  #logo h1 {
+    width: 100%;
+    text-align: center;
+  }
+  #menu {
+    top: 0;
+    display: block;
+    position: relative;
+    text-align: center;
+    float: none;
+    padding: 0;
+    font-size: 0.55em;
+  }
+
+  #header {
+    height: 5.5em;
+  }
+
+  #header-featured
+  {
+    padding: 6em 0em;
+  }
+
+  #banner
+  {
+    overflow: hidden;
+    width: 80%;
+    font-size: 1em;
+  }
+
+  #featured .main-title {
+    margin-bottom: 2em;
+  }
+
+  #featured .main-title h2 {
+    font-size: 3em;
+  }
+
+  .extra2 .ebox1 {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-right: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+  }
+
+  .extra2 .ebox1 p {
+    padding: 1em;
+  }
+
+  .extra2 .ebox2 {
+    display: block;
+    width: 100%;
+    margin: auto;
+    padding-left: 0;
+    padding-right: 0;
+    border: none;
+  }
+
+  .extra2 .ebox2 p {
+    padding: 1em;
+  }
+
+  .button {
+    padding: 1.3em 3em;
+    background: #F2762E;
+    border-radius: 30px;
+    letter-spacing: 0.20em;
+    font-size: 0.8em;
+    font-weight: 400;
+    color: #FFF;
+  }
+
+  .title {
+    margin-bottom: 1em;
+  }
+}
+
 
 @charset 'UTF-8';
 
