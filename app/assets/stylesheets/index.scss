@@ -1042,6 +1042,11 @@ a.anchor {
     font-size: 3em;
   }
 
+  #featured-wrapper {
+    padding-top: 2em;
+    padding-bottom: 0;
+  }
+
   .extra2 .ebox1 {
     display: block;
     width: 100%;
@@ -1050,8 +1055,8 @@ a.anchor {
     border-bottom: 1px solid rgba(0,0,0,.1);
     padding-left: 0;
     padding-right: 0;
-    padding-bottom: 1em;
-    margin-bottom: 1em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
   }
 
   .extra2 .ebox1 p {
@@ -1061,11 +1066,14 @@ a.anchor {
   .extra2 .ebox2 {
     display: block;
     width: 100%;
-    margin: auto;
     padding-left: 0;
     padding-right: 0;
-    border: none;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 4em;
+    margin-bottom: 3em;
   }
+
+
 
   .extra2 .ebox2 p {
     padding: 1em;
@@ -1083,6 +1091,43 @@ a.anchor {
 
   .title {
     margin-bottom: 1em;
+  }
+
+  #content
+  {
+    float: none;
+    width: 100%;
+    display: block;
+    padding: 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-bottom: 4em;
+    margin-bottom: 3em;
+  }
+
+  #content h2 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+
+  #content p {
+    font-size: 1em;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  #sidebar
+  {
+    float: none;
+    width: 100%;
+  }
+
+  #sidebar h2 {
+    font-size: 3em;
+    font-weight: 600;
+  }
+
+  #page {
+    padding: 0;
   }
 }
 
