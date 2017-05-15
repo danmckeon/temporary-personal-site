@@ -120,7 +120,7 @@ ul.style1 li
 {
   overflow: hidden;
   display: block;
-  padding: 2.80em 0em;
+  padding: 0.80em 0em;
   border-top: 1px solid #D1CFCE;
 }
 
@@ -147,8 +147,7 @@ ul.style1 h3
 
 ul.style1 a
 {
-  text-decoration: none;
-  color: #525252;
+  color: #E36922;
 }
 
 ul.style1 a:hover
@@ -550,7 +549,7 @@ ul.contact li a.icon-rss:before
 #page
 {
   overflow: hidden;
-  padding: 6em 0em 0em 0em;
+  padding: 2em 0em 0em 0em;
   background: #FFF;
   text-align: center;
 }
@@ -615,7 +614,7 @@ ul.contact li a.icon-rss:before
 #copyright
 {
   overflow: hidden;
-  padding: 6em 0em 10em 0em;
+  padding: 1em 0em 1em 0em;
   border-top: 1px solid rgba(255,255,255,0.08);
 }
 
@@ -641,7 +640,7 @@ ul.contact li a.icon-rss:before
 #featured-wrapper
 {
   overflow: hidden;
-  padding: 10em 0em;
+  padding: 2em 0em;
   background: #FFF;
   text-align: center;
 }
@@ -956,7 +955,7 @@ ul.contact li a.icon-rss:before
 a.anchor {
   display: block;
   position: relative;
-  top: -60px;
+  top: -6em;
   visibility: hidden;
 }
 
