@@ -1,24 +1,5 @@
-# README
+# Temporary Portfolio Site
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This simple Rails app is serving as a temporary portfolio site. I used a template from templated.co called Untamed: https://templated.co/untamed
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I am in the process of developing my permanent portfolio site from scratch on React. It should be released in June 2017. Stay tuned.
