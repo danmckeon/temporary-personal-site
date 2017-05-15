@@ -11,19 +11,6 @@ Released   : 20131220
 
 -->
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title></title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-    <link href="default.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-
-    <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-
-  </head>
-
   <body>
     <div id="header-wrapper">
       <div id="header" class="container">
@@ -33,7 +20,7 @@ Released   : 20131220
         <div id="menu">
           <ul>
             <li class="current_page_item"><a href="#" accesskey="1" title="">Home</a></li>
-            <li><a href="#" accesskey="2" title="">Project</a></li>
+            <li><a href="#" accesskey="2" title="">Projects</a></li>
             <li><a href="#" accesskey="3" title="">About</a></li>
             <li><a href="#" accesskey="3" title="">Contact</a></li>
           </ul>
@@ -68,7 +55,10 @@ Released   : 20131220
           <a href="https://github.com/danmckeon/crconnect" target="_blank" class="button">Github</a>
         </div>
         <div class="ebox2">
-          <span class="fa fa-sun-o"></span>
+          <div class="project-img-container">
+            <%= link_to image_tag("run_for_this_logo.png", size: "150x150", alt: "Run for This"), "#" %>
+          </div>
+
           <div class="title">
             <h2>Run for This</h2>
             <span class="byline">Driving Civic Engagement Through Technology</span>
@@ -82,8 +72,8 @@ Released   : 20131220
       <div id="page" class="container">
         <div id="content">
           <div class="title">
-            <h2>Welcome to our website</h2>
-            <span class="byline">Mauris vulputate dolor sit amet nibh</span> </div>
+            <h2>About Me</h2>
+          </div>
           <p>Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo. Aliquam lacinia metus ut elit. Suspendisse iaculis mauris nec lorem. Donec leo. Vivamus fermentum nibh in augue. Praesent a lacus at urna congue rutrum. Nulla enim eros, porttitor eu, tempus id, varius non, nibh. </p>
           <p>Donec condimentum, urna non molestie semper, ligula enim ornare nibh, quis laoreet eros quam eget ante. Aliquam libero. Vivamus nisl nibh, iaculis vitae, viverra sit amet, ullamcorper vitae, turpis. Aliquam erat volutpat. Vestibulum dui sem, pulvinar sed, imperdiet nec, iaculis nec, leo. Fusce odio. Etiam arcu dui, faucibus eget, placerat vel, sodales eget, orci. Donec ornare neque ac sem. Mauris aliquet. Aliquam sem leo, vulputate sed, convallis at, ultricies quis, justo. Donec nonummy magna quis risus. Quisque eleifend. Phasellus tempor vehicula justo.</p>
         </div>
@@ -107,6 +97,7 @@ Released   : 20131220
     </div>
     <div id="copyright" class="container">
       <p>Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+      <p>Star icon made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
     </div>
   </body>
 </html>
