@@ -998,6 +998,11 @@ a.anchor {
     padding-top: 10em;
     padding-bottom: 2em;
   }
+
+  .button {
+    font-size: 0.9em;
+    font-weight: 600;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -1090,13 +1095,8 @@ a.anchor {
   }
 
   .button {
-    padding: 1.3em 3em;
-    background: #F2762E;
-    border-radius: 30px;
-    letter-spacing: 0.20em;
     font-size: 0.8em;
     font-weight: 400;
-    color: #FFF;
   }
 
   .title {
