@@ -25,9 +25,9 @@ $(document).ready(function() {
       if (anchors[i + 1] && anchors[i].offsetTop < fromTop && anchors[i + 1].offsetTop >= fromTop) {
         $("#menu ul li").removeClass("current_page_item");
         $("#menu ul li").eq(i).addClass("current_page_item");
-      } else if (anchors[i].offsetTop < fromTop){
+      } else if ($(window).scrollTop() + $(window).height() == $(document).height()){
         $("#menu ul li").removeClass("current_page_item");
-        $("#menu ul li").eq(i).addClass("current_page_item");
+        $("#menu ul li").eq(anchors.length - 1).addClass("current_page_item");
       }
     }
   });
