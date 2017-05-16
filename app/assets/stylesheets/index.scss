@@ -1026,6 +1026,10 @@ a.anchor {
     font-size: 0.9em;
     font-weight: 600;
   }
+
+  #content {
+    margin-top: 3em;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -1079,6 +1083,7 @@ a.anchor {
   #featured-wrapper {
     padding-top: 2em;
     padding-bottom: 0;
+    border-bottom: none;
   }
 
   div.title{
@@ -1149,19 +1154,12 @@ a.anchor {
     margin-bottom: 0;
   }
 
-  #sidebar
-  {
-    float: none;
-    width: 100%;
-    padding: 0;
-  }
-
-  #sidebar h2 {
+  #contact h2 {
     font-size: 3em;
     font-weight: 600;
   }
 
-  #sidebar h3 {
+  #contact h3 {
     font-size: 1.25em;
   }
 
