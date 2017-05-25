@@ -1,123 +1,109 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
-Design by TEMPLATED
-http://templated.co
-Released for free under the Creative Commons Attribution License
 
-Name       : Untamed
-Description: A two-column, fixed-width design with dark color scheme.
-Version    : 1.0
-Released   : 20131220
 
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <body>
-    <div id="header-wrapper">
-      <div id="header" class="container">
-        <div id="logo">
-          <h1><a href="home">Dan McKeon</a></h1>
-        </div>
-        <div id="menu">
-          <ul>
-            <li class="current_page_item"><a href="home" accesskey="1" title="">Home</a></li>
-            <li><a href="projects" accesskey="2" title="">Projects</a></li>
-            <li><a href="about" accesskey="3" title="">About</a></li>
-            <li><a href="contact" accesskey="3" title="">Contact</a></li>
-          </ul>
-        </div>
+<div id="header-wrapper">
+  <div id="header" class="container">
+    <div id="logo">
+      <h1><a href="home">Dan McKeon</a></h1>
+    </div>
+    <div id="menu">
+      <ul>
+        <li class="current_page_item"><a href="home" accesskey="1" title="">Home</a></li>
+        <li><a href="projects" accesskey="2" title="">Projects</a></li>
+        <li><a href="about" accesskey="3" title="">About</a></li>
+        <li><a href="contact" accesskey="3" title="">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<a class="anchor" name="home"></a>
+<div id="header-featured">
+  <div id="banner-wrapper">
+    <div id="banner" class="container">
+      <p>I'm an entrepreneurial-minded software engineer seeking a junior developer position. My passion is building scalable technologies that empower people. For the past year, I've been working on finding innovative solutions to fight cancer by creating software that helps patients access clinical trials.</p>
+    </div>
+  </div>
+</div>
+
+<a class="anchor" name="projects"></a>
+<div id="featured-wrapper">
+  <div id="featured" class="extra2 container">
+    <div class="main-title">
+      <h2>Projects</h2>
+    </div>
+
+    <div class="ebox1">
+      <%= link_to image_tag("crc_logo_square.png", size: "150x150", alt: "Cancer Research Connect"), "https://www.crconnect.org", target: '_blank' %>
+      <div class="title">
+        <h2>Cancer Research Connect</h2>
+        <span class="byline">Helping those with cancer access clinical trials</span>
       </div>
+      <p>Clinical trials have a participant satisfaction rate of more than 90%, yet less than 5% of cancer patients participate. Not enough patients (and doctors) know what trials are available to them. Patients need more options. Researchers need more participants. CRC connects these two groups by making information on clinical trials much easier to find. To do so, we scrape publicly available government filings for clinical trials and make them easily searchable for the average person. Our current application includes both lung and colorectal cancer trials, but we plan to extend to other types in the coming months.</p>
+      <a href="https://www.crconnect.org/" target="_blank" class="button">www.crconnect.org</a>
+      <br>
+      <a href="https://github.com/danmckeon/crconnect" target="_blank" class="button">Github</a>
     </div>
-
-    <a class="anchor" name="home"></a>
-    <div id="header-featured">
-      <div id="banner-wrapper">
-        <div id="banner" class="container">
-          <p>I'm an entrepreneurial-minded software engineer seeking a junior developer position. My passion is building scalable technologies that empower people. For the past year, I've been working on finding innovative solutions to fight cancer by creating software that helps patients access clinical trials.</p>
-        </div>
+    <div class="ebox2">
+      <%= image_tag("run_for_this_logo.png", size: "150x150", alt: "Run for This") %>
+      <div class="title">
+        <h2>Run for This</h2>
+        <span class="byline">Driving Civic Engagement Through Technology</span>
       </div>
+      <p>Run for This helps people engage with government by providing a simple platform to determine which elected offices they can run for in their district. The site is currently under development.</p>
+      <a class="button">Website Coming Soon</a>
     </div>
+  </div>
+</div>
 
-    <a class="anchor" name="projects"></a>
-    <div id="featured-wrapper">
-      <div id="featured" class="extra2 container">
-        <div class="main-title">
-          <h2>Projects</h2>
-        </div>
 
-        <div class="ebox1">
-          <%= link_to image_tag("crc_logo_square.png", size: "150x150", alt: "Cancer Research Connect"), "https://www.crconnect.org", target: '_blank' %>
-          <div class="title">
-            <h2>Cancer Research Connect</h2>
-            <span class="byline">Helping those with cancer access clinical trials</span>
-          </div>
-          <p>Clinical trials have a participant satisfaction rate of more than 90%, yet less than 5% of cancer patients participate. Not enough patients (and doctors) know what trials are available to them. Patients need more options. Researchers need more participants. CRC connects these two groups by making information on clinical trials much easier to find. To do so, we scrape publicly available government filings for clinical trials and make them easily searchable for the average person. Our current application includes both lung and colorectal cancer trials, but we plan to extend to other types in the coming months.</p>
-          <a href="https://www.crconnect.org/" target="_blank" class="button">www.crconnect.org</a>
-          <br>
-          <a href="https://github.com/danmckeon/crconnect" target="_blank" class="button">Github</a>
-        </div>
-        <div class="ebox2">
-          <%= image_tag("run_for_this_logo.png", size: "150x150", alt: "Run for This") %>
-          <div class="title">
-            <h2>Run for This</h2>
-            <span class="byline">Driving Civic Engagement Through Technology</span>
-          </div>
-          <p>Run for This helps people engage with government by providing a simple platform to determine which elected offices they can run for in their district. The site is currently under development.</p>
-          <a class="button">Website Coming Soon</a>
-        </div>
+<div id="wrapper">
+  <div id="page" class="container">
+    <a class="anchor" name="about"></a>
+    <div id="content">
+      <div class="title">
+        <h2>About</h2>
       </div>
+      <p>I'm a software engineer based in beautiful Seattle, WA. I'm passionate about empowering people through technology. For over a year, I've been building a web application called Cancer Research Connect (CRC) that helps people who have cancer find clinical trials. We recently launched the site and are continuing to build out the database and search engine to make this technology as accurate and accessible for as many people as possible. I've been self-teaching programming for years and in early 2017 attended Dev Bootcamp to improve my understanding of software engineering concepts. For our final project, I served as team lead as we built the <a href="https://www.crconnect.org" target="_blank">CRC prototype website</a> using a React User Interface and Ruby on Rails for the API. I'm eager to learn new technologies and particularly to further build my skillset in React. Prior to Dev Bootcamp, I spent much of my career as a consultant to natural and organic food companies, helping them to achieve their sales and marketing goals. When I'm not building applications, you're likely to find me hiking, climbing, or backpacking in the Pacific Northwest or while traveling.</p>
     </div>
-
-
-    <div id="wrapper">
-      <div id="page" class="container">
-        <a class="anchor" name="about"></a>
-        <div id="content">
-          <div class="title">
-            <h2>About</h2>
-          </div>
-          <p>I'm a software engineer based in beautiful Seattle, WA. I'm passionate about empowering people through technology. For over a year, I've been building a web application called Cancer Research Connect (CRC) that helps people who have cancer find clinical trials. We recently launched the site and are continuing to build out the database and search engine to make this technology as accurate and accessible for as many people as possible. I've been self-teaching programming for years and in early 2017 attended Dev Bootcamp to improve my understanding of software engineering concepts. For our final project, I served as team lead as we built the <a href="https://www.crconnect.org" target="_blank">CRC prototype website</a> using a React User Interface and Ruby on Rails for the API. I'm eager to learn new technologies and particularly to further build my skillset in React. Prior to Dev Bootcamp, I spent much of my career as a consultant to natural and organic food companies, helping them to achieve their sales and marketing goals. When I'm not building applications, you're likely to find me hiking, climbing, or backpacking in the Pacific Northwest or while traveling.</p>
-        </div>
-        <a class="anchor" name="contact"></a>
-        <div id="contact">
-          <div class="title">
-            <h2>Contact</h2>
-          </div>
-          <ul class="style1">
-            <li>
-              <h3><a href="mailto:dpmckeon@gmail.com" target="_top">Email Me</a></h3>
-            </li>
-            <li>
-              <h3><a href="https://www.linkedin.com/in/danmckeon" target="_blank">Connect on LinkedIn</a></h3>
-            </li>
-            <li>
-              <h3><a href="https://github.com/danmckeon" target="_blank">See My Github</a></h3>
-            </li>
-            <li>
-              <h3><a href="/Daniel_McKeon_Resume.pdf" target="_blank">See My Resume</a></h3>
-            </li>
-          </ul>
-        </div>
+    <a class="anchor" name="contact"></a>
+    <div id="contact">
+      <div class="title">
+        <h2>Contact</h2>
       </div>
+      <ul class="style1">
+        <li>
+          <h3><a href="mailto:dpmckeon@gmail.com" target="_top">Email Me</a></h3>
+        </li>
+        <li>
+          <h3><a href="https://www.linkedin.com/in/danmckeon" target="_blank">Connect on LinkedIn</a></h3>
+        </li>
+        <li>
+          <h3><a href="https://github.com/danmckeon" target="_blank">See My Github</a></h3>
+        </li>
+        <li>
+          <h3><a href="/Daniel_McKeon_Resume.pdf" target="_blank">See My Resume</a></h3>
+        </li>
+      </ul>
     </div>
-    <div id="copyright" class="container">
-      <p>This website is temporary while permanent site is <a href="https://github.com/danmckeon/personal-site" target="_blank">being developed</a>.</p>
-      <p>Template Design by <a href="http://templated.co" rel="nofollow" target="_blank">TEMPLATED</a>.</p>
-      <p>Star icon made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon" target="_blank">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
-    </div>
-    <script type="text/javascript">
-    var sc_project=11353530; 
-    var sc_invisible=1; 
-    var sc_security="a6015af8"; 
-    var scJsHost = (("https:" == document.location.protocol) ?
-    "https://secure." : "http://www.");
-    document.write("<sc"+"ript type='text/javascript' src='" +
-    scJsHost+
-    "statcounter.com/counter/counter.js'></"+"script>");
-    </script>
-    <noscript><div class="statcounter"><a title="web analytics"
-    href="http://statcounter.com/" target="_blank"><img
-    class="statcounter"
-    src="//c.statcounter.com/11353530/0/a6015af8/1/" alt="web
-    analytics"></a></div></noscript>
-  </body>
-</html>
+  </div>
+</div>
+<div id="copyright" class="container">
+  <p>This website is temporary while permanent site is <a href="https://github.com/danmckeon/personal-site" target="_blank">being developed</a>.</p>
+  <p>Template Design by <a href="http://templated.co" rel="nofollow" target="_blank">TEMPLATED</a>.</p>
+  <p>Star icon made by <a href="http://www.flaticon.com/authors/gregor-cresnar" title="Gregor Cresnar">Gregor Cresnar</a> from <a href="http://www.flaticon.com" title="Flaticon" target="_blank">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+</div>
+<script type="text/javascript">
+var sc_project=11353530;
+var sc_invisible=1;
+var sc_security="a6015af8";
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="web analytics"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11353530/0/a6015af8/1/" alt="web
+analytics"></a></div></noscript>
